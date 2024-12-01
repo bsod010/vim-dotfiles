@@ -8,6 +8,12 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.tailwindcss" },
-
   { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  {
+    "NvChad/nvim-colorizer.lua",
+    event = "BufReadPre",
+    opts = { -- set to setup table
+    },
+  },
 }
